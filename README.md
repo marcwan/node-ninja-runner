@@ -10,6 +10,12 @@ To use:
 
     bash node_ninja_runner.sh max_mem max_restarts time_period script_name [other args]
 
+For example:
+
+    base node_ninja_runner.sh 100 10 2 personal_blog.js production
+
+This will run _personal_blog.js_ passing in the argument _production_, with a memory limit of 100M, and will permit no more than 10 crashes within a 2 minute period.
+
 
 Parameters:
 
@@ -18,5 +24,4 @@ Parameters:
 1. **time_period** -- See previous.
 1. **script_name** -- The name of the node script to run.
 1. You can provide optional arguments to the script to run. These are currently limited to 10 in count.
-
 
