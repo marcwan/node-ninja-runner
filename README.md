@@ -12,7 +12,7 @@ To use:
 
 For example:
 
-    base node_ninja_runner.sh 100 10 2 personal_blog.js production
+    bash node_ninja_runner.sh 100 10 2 personal_blog.js production
 
 This will run _personal_blog.js_ passing in the argument _production_, with a memory limit of 100M, and will permit no more than 10 crashes within a 2 minute period.
 
